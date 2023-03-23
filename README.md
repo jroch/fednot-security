@@ -46,7 +46,7 @@ This has been implemented in the backend by the following annotation calling the
 
 We currently have the list of abilities managed on the backend.  My suggestion would be to extend the GET /context endpoint and add an authorization attribute that has a list of permissions allowed:
 
-```json
+```js
 {
   participantType: { ... },
   version: { ... },
